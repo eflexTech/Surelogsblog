@@ -20,8 +20,9 @@ const Explore = () => {
           behavior: 'smooth'
         });
       };
+      const year = new Date().getFullYear();
   return (
-    <>
+    <div className='Explore'>
       <div className='footerWrapper'>
         <div className='container'>
             <div className='textcontainer'>
@@ -79,7 +80,7 @@ const Explore = () => {
       <div className='Footertext'>
             <div className='Textbg'>
                 <h5>
-                2025 © All rights reserved by <br className='break'/> <span>Surelogsblog</span> 
+                {year} © All rights reserved by <br className='break'/> <span>Surelogsblog</span> 
                 </h5>
                 <footer className='scrbtn'>
       <Button type="primary" onClick={scrollToTop} className='scricon'>
@@ -88,7 +89,7 @@ const Explore = () => {
     </footer>
             </div>
         </div>
-      </>
+      </div>
   )
 }
 

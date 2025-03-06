@@ -62,7 +62,7 @@ const About = () => {
       <div className="rightBodyj">
         <div className="wrapj">
           <h2>
-            <span>At Fadded Socials</span>
+            <span>Surelogs Blog</span>
             <br />
             We focus on quality socials accounts.
           </h2>

@@ -1,7 +1,6 @@
 .mainCardj {
   width: 100vw;
   height: 150vh;
-  /* background: red; */
   display: flex;
 
   & .leftBodyj {
@@ -88,7 +87,6 @@
   & .rightBodyj {
     width: 40%;
     height: 100%;
-    /* background-color: pink; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,12 +162,10 @@
     height: max-content;
     display: flex;
     flex-direction: column;
-    /* background-color: pink; */
 
     & .leftBodyj {
       width: 100%;
       height: 100%;
-      /* background-color: red; */
       display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
@@ -250,7 +246,6 @@
     & .rightBodyj {
       width: 100%;
       height: 50%;
-      /* background-color: pink; */
       display: flex;
       flex-direction: column;
       justify-content: start;
@@ -291,12 +286,10 @@
     height: max-content;
     display: flex;
     flex-direction: column;
-    /* background-color: pink; */
 
     & .leftBodyj {
       width: 100%;
       height: 100%;
-      /* background-color: red; */
       display: flex;
       flex-direction: column;
       flex-wrap: nowrap;

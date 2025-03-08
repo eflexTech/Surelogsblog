@@ -1,6 +1,6 @@
 .mainCardj {
   width: 100vw;
-  height: 150vh;
+  height: 100vh;
   display: flex;
 
   & .leftBodyj {
@@ -164,6 +164,7 @@
     height: max-content;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 
     & .leftBodyj {
       width: 100%;

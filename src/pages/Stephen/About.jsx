@@ -4,8 +4,11 @@ import { SlSocialDropbox } from "react-icons/sl";
 import { BsLightbulb } from "react-icons/bs";
 import { BsBarChart } from "react-icons/bs";
 import { BsBasket } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
+  const nav = useNavigate()
+
   return (
     <div className="mainCardj">
       <div className="leftBodyj">
@@ -72,7 +75,11 @@ const About = () => {
             <br />
             marketing, brand promotion, newsletters, and much more.
           </p>
-          <button>Shop now</button>
+          <button
+            onClick={() => {
+              nav("/login")
+            }}
+          >Shop now</button>
         </div>
       </div>
     </div>

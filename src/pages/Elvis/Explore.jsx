@@ -66,7 +66,7 @@ const Explore = () => {
                 </div>
             </div>
             <button className='btn'
-            onClick={()=>navigate("/")}
+            onClick={()=>navigate("/login")}
             >Shop Now</button>
         </div>
       </div>

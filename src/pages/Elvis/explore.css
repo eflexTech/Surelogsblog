@@ -175,7 +175,7 @@
    .footerWrapper{
     width: 100%;
     height: max-content;
-    background-color: rgb(13, 109, 252);
+    background-color: #673204;
     clip-path: none;
     display: flex;
     justify-content: center;
@@ -249,7 +249,7 @@
    .footerWrapper{
     width: 100%;
     height: max-content;
-    background-color: rgb(13, 109, 252);
+    background-color: #673204;
     clip-path: none;
     display: flex;
     justify-content: center;

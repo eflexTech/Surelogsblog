@@ -1,0 +1,170 @@
+.generalHeader{
+ width: 100vw;
+ height: 100vh;
+ background-color:#2C80FD;
+}
+
+.collapseHeader{
+width: 100%;
+height: 10vh;
+background-color:#1F0757;
+display: flex;
+justify-content: center;
+position: fixed;
+
+
+
+@media screen and (max-width: 768px) {
+
+    width: 100%;
+    height: 10vh;
+    background-color:#1F0757;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+
+
+}
+
+
+
+
+}
+
+
+.logoContain{
+ width: 65% ;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ gap: 5px;
+}
+
+.logoDiv{
+    width: 5%;
+    height: 75%;
+    border-radius: 150px;
+    background-color:black;
+    
+}
+
+.bizName{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;  
+}
+
+.getIn{
+    width:15%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.getInbtn{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #4BE0BB;
+    color: white;
+    font-family: system-ui, -apple-, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700
+}
+
+
+.marketPlace{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.marketplaceDiv{
+ width: 90%;
+ height:70%;
+ background-color:#2C80FD;
+ display: flex;
+ flex-direction: column;
+  margin-top: 198px;
+}
+
+.desCription{
+ width:50% ;
+ display: flex;
+ align-items: center;
+ gap: 10px;
+
+
+ & p{
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+
+ }
+}
+
+.marketAcount{
+    width:50% ;
+    display: flex;
+    flex-direction: column;
+   
+
+
+}
+
+.marketText{
+    font-size: 65px; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin-top: -10px;
+    }
+
+.paraGraph{
+    font-size: 20px;
+    color: white;
+    margin-top: -35px;
+}
+
+
+
+
+.btnCorner{
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+.register{
+    width: 120px;
+    height: 50px;
+    background-color:#FFC823 ;
+    font-size: 17px;
+}
+
+.entryButton{
+    width: 100px;
+    height: 50px;
+    font-size: 17px;
+}
+
+
+
+ .picsonPics{
+    position: absolute;
+    right: px;
+    top: 50%; 
+    width: 40%;
+    height: 300px;
+} 
+
+
+.picsImage{
+  width: 400px;
+  height: 300px;
+}
+

@@ -74,7 +74,7 @@
         background-color: white;
         border-radius: 10px;
         margin-top: 7%;
-        background-color: rgb(13, 110, 253);
+        background-color: #673204;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -142,6 +142,7 @@
     color: rgb(31, 7, 87);
     font-weight: 700;
     font-size: 20px;
+    margin-bottom: 5px;
   }
 
   & .icon {
@@ -153,6 +154,7 @@
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    margin-bottom: 20px;
   }
 }
 
@@ -234,7 +236,7 @@
           background-color: white;
           border-radius: 10px;
           margin-top: 0;
-          background-color: rgb(13, 110, 253);
+          background-color: #673204;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -358,7 +360,7 @@
           background-color: white;
           border-radius: 10px;
           margin-top: 0;
-          background-color: rgb(13, 110, 253);
+          background-color: #673204;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -483,7 +485,7 @@
           background-color: white;
           border-radius: 10px;
           margin-top: 0;
-          background-color: rgb(13, 110, 253);
+          background-color: #673204;
           display: flex;
           justify-content: center;
           align-items: center;

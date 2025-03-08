@@ -2,6 +2,8 @@ import './onboarding.css'
 import { LockOutlined, MailOutlined, UserOutlined } from '@ant-design/icons';
 import { Button, Checkbox, Form, Input, Flex } from 'antd';
 import { useNavigate } from 'react-router-dom';
+import Logo from "../../assets/Logo.png"
+
 
 const SignUp = () => {
   const onFinish = (values) => {
@@ -15,7 +17,8 @@ const SignUp = () => {
       </div>
       <div className="login-rightside">
         <div className="login-wrapper">
-        <h3 onClick={()=>nav('/')}>Surelogs Blog</h3>
+        <img src={Logo} alt="Surelogs Blog" onClick={()=>nav('/')}/>
+        {/* <h3 onClick={()=>nav('/')}>Surelogs Blog</h3> */}
         <h6>Sign up Your Account</h6>
         <Form
       name="login"

@@ -48,7 +48,7 @@ const About = () => {
           </div>
           <div className="cardk">
             <div className="wrappk">
-            <div className="icon" style={{background: "rgb(13,202,240)"}}><BsBasket /></div>
+            <div className="icon" style={{background: "#3F0140"}}><BsBasket /></div>
               <h3 style={{color: "white"}}>Secure Transactions</h3>
               <p style={{color: "rgb(194, 186, 186)"}}>
                 Shop with confidence knowing that our platform prioritizes

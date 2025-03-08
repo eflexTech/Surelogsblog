@@ -43,6 +43,11 @@ const HerroPage = () => {
                          <img className='picsImage' src="https://www.fadded-socials.com/assets/front/img/illustrator/hero-3.png" alt="" />
                     </div>
 
+
+                    {/* <div className='authentication'>
+
+                    </div> */}
+
             </div>
 
         </div>

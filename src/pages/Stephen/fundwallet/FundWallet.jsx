@@ -10,14 +10,12 @@ const FundWallet = () => {
     payment: "",
   });
   const [open, setOpen] = useState(false);
-  const navigate = useNavigate()
 
   const isopen = () => {
     if (!userinput.amount.trim() && !userinput.payment.trim()) {
       toast.error("please fill in details");
     }else if(userinput.payment === "MANUAL PAYMENT"){
       setOpen(false)
-      navigate("/user/deposit/manual")
 
     }else {
       setOpen(true);

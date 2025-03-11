@@ -58,7 +58,7 @@
         font-weight: 600;
 
         & input{
-            height: 65px;
+            height: 55px;
             border-radius: 10px;
             border: 1px solid lightgray;
             padding: 20px;
@@ -76,7 +76,7 @@
     & label{
 
         & select{
-            height: 65px;
+            height: 55px;
             border-radius: 10px;
             border: 1px solid lightgray;
             padding: 20px;
@@ -89,7 +89,7 @@
 
     & button{
         width: 90%;
-        height: 60px;
+        height: 50px;
         border-radius: 30px;
         border: none;
         outline: none;
@@ -110,7 +110,7 @@
 
     & .tag{
         width: 93%;
-        height: 50px;
+        height: 40px;
         border-radius: 30px;
         border: none;
         outline: none;

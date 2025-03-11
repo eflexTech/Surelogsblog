@@ -1,0 +1,532 @@
+.mainCardj {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  & .leftBodyj {
+    width: 56%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+
+    & .wrapperj {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      justify-content: end;
+      align-items: end;
+      gap: 7%;
+
+      & .cardj {
+        width: 38%;
+        height: max-content;
+        background-color: white;
+        border-radius: 10px;
+        margin-bottom: 7%;
+        border: 1px solid lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 30px 0;
+      }
+
+      & .cardk {
+        width: 38%;
+        height: max-content;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 7%;
+        border: 1px solid lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 30px 0;
+      }
+    }
+
+    & .wrapperk {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      justify-content: end;
+      gap: 7%;
+
+      & .cardj {
+        width: 38%;
+        height: max-content;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 20px 0;
+      }
+
+      & .cardk {
+        width: 38%;
+        height: max-content;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 7%;
+        background-color: #673204;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 30px 0;
+      }
+    }
+  }
+
+  & .rightBodyj {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & .wrapj {
+      width: 70%;
+      font-family: Manrope, sans-serif;
+
+      & h2 {
+        font-size: 40px;
+        font-weight: 700;
+        color: rgb(31, 7, 87);
+        line-height: 52px;
+
+        & span {
+          font-size: 22px;
+          font-weight: 500;
+          color: rgb(170, 166, 166);
+          margin-top: 100%;
+        }
+      }
+
+      & p {
+        font-size: 18px;
+        color: rgb(170, 166, 166);
+      }
+
+      & button {
+        width: max-content;
+        height: max-content;
+        padding: 13px 25px;
+        background-color: rgb(255, 193, 7);
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 5%;
+        border: none;
+        outline: none;
+      }
+
+      & button:hover {
+        background-color: rgb(253, 198, 30);
+      }
+    }
+  }
+}
+
+.wrappk {
+  width: 75%;
+  height: max-content;
+
+  & h3 {
+    color: rgb(31, 7, 87);
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  & .icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (width <= 990px) {
+  .mainCardj {
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    & .leftBodyj {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 10px;
+
+      & .wrapperj {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+
+        & .cardj {
+          width: 320px;
+          height: 350px;
+          background-color: white;
+          border-radius: 10px;
+          margin-bottom: 0;
+          border: 1px solid lightgray;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+
+        & .cardk {
+          width: 320px;
+          height: 350px;
+          background-color: white;
+          border-radius: 10px;
+          margin-top: 0;
+          border: 1px solid lightgray;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+      }
+
+      & .wrapperk {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+        padding: 10px;
+
+        & .cardj {
+          width: 320px;
+          height: 350px;
+          background-color: white;
+          border-radius: 10px;
+          border: 1px solid lightgray;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+
+        & .cardk {
+          width: 320px;
+          height: 350px;
+          background-color: white;
+          border-radius: 10px;
+          margin-top: 0;
+          background-color: #673204;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+      }
+    }
+
+    & .rightBodyj {
+      width: 100%;
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+
+      & .wrapj {
+        width: 500px;
+        font-family: Manrope, sans-serif;
+        margin-right: 18%;
+
+        & h2 {
+          font-size: 30px;
+          font-weight: 700;
+          color: rgb(31, 7, 87);
+          line-height: 35px;
+
+          & span {
+            font-size: 16px;
+            font-weight: 500;
+            color: rgb(107, 71, 143);
+            margin-top: 100%;
+            font-weight: 700;
+          }
+        }
+
+        & p {
+          font-size: 16px;
+          color: rgb(170, 166, 166);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (width <= 766px) {
+  .mainCardj {
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+
+    & .leftBodyj {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 10px;
+
+      & .wrapperj {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+
+        & .cardj {
+          width: 250px;
+          height: 440px;
+          background-color: white;
+          border-radius: 10px;
+          margin-bottom: 0;
+          border: 1px solid lightgray;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+
+        & .cardk {
+          width: 250px;
+          height: 440px;
+          background-color: white;
+          border-radius: 10px;
+          margin-top: 0;
+          border: 1px solid lightgray;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+      }
+
+      & .wrapperk {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        gap: 20px;
+        padding: 10px;
+
+        & .cardj {
+          width: 250px;
+          height: 450px;
+          background-color: white;
+          border-radius: 10px;
+          border: 1px solid lightgray;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+
+        & .cardk {
+          width: 250px;
+          height: 450px;
+          background-color: white;
+          border-radius: 10px;
+          margin-top: 0;
+          background-color: #673204;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+      }
+    }
+
+    & .rightBodyj {
+      width: 100%;
+      height: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+
+      & .wrapj {
+        width: 460px;
+        font-family: Manrope, sans-serif;
+        margin-right: 8%;
+
+        & h2 {
+          font-size: 27px;
+          font-weight: 700;
+          color: rgb(31, 7, 87);
+          line-height: 35px;
+        }
+
+        & button {
+          width: max-content;
+          height: max-content;
+          padding: 13px 20px;
+          background-color: rgb(255, 193, 7);
+          font-size: 14px;
+          font-weight: 600;
+          margin-top: 5%;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (width <= 575px ) {
+  .mainCardj {
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+
+    & .leftBodyj {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 10px;
+
+      & .wrapperj {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+
+        & .cardj {
+          width: 370px;
+          height: 370px;
+          background-color: white;
+          border-radius: 10px;
+          margin-bottom: 0;
+          border: 1px solid lightgray;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+
+        & .cardk {
+          width: 370px;
+          height: 370px;
+          background-color: white;
+          border-radius: 10px;
+          margin-top: 0;
+          border: 1px solid lightgray;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+      }
+
+      & .wrapperk {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;
+
+        & .cardj {
+          width: 370px;
+          height: 370px;
+          background-color: white;
+          border-radius: 10px;
+          border: 1px solid lightgray;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+
+        & .cardk {
+          width: 370px;
+          height: 370px;
+          background-color: white;
+          border-radius: 10px;
+          margin-top: 0;
+          background-color: #673204;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+      }
+    }
+
+    & .rightBodyj {
+      width: 100%;
+      height: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+
+      & .wrapj {
+        width: 400px;
+        font-family: Manrope, sans-serif;
+        margin-left: 14%;
+
+        & h2 {
+          font-size: 27px;
+          font-weight: 700;
+          color: rgb(31, 7, 87);
+          line-height: 35px;
+        }
+
+        & button {
+          width: max-content;
+          height: max-content;
+          padding: 13px 20px;
+          background-color: rgb(255, 193, 7);
+          font-size: 14px;
+          font-weight: 600;
+          margin-top: 5%;
+          border: none;
+          outline: none;
+        }
+      }
+    }
+  }
+}

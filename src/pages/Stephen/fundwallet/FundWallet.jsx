@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./fundwallet.css";
 import { Modal } from "antd";
-import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
 const FundWallet = () => {

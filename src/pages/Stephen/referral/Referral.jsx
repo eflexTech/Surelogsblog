@@ -2,12 +2,13 @@ import React from "react";
 import "./referral.css";
 import { MdOutlineCopyAll } from "react-icons/md";
 import { BsFillExclamationTriangleFill } from "react-icons/bs";
+import { toast } from "react-toastify";
 
 const Referral = () => {
 
   const  handleCopy = () =>{
     navigator.clipboard.writeText("https://www.suresblog-socials.com/user/register?code=75495")
-    alert("copied to clipboard")
+    toast.success("copied to clipboard")
   }
   return (
     <div className="mainGet">

@@ -16,7 +16,7 @@ const Referral = () => {
         <p>Earn money when people you refer Buy our Products! T&Cs apply</p>
       </div>
       <div className="refDash">
-        <p>Referral Link</p>
+        <k>Referral Link</k>
         <div className="link">
           <span>
           https://www.suresblog-socials.com/user/register?code=75495

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./fundwallet.css";
 import { Modal } from "antd";
-import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
 const FundWallet = () => {
@@ -12,12 +11,14 @@ const FundWallet = () => {
   const [open, setOpen] = useState(false);
 
   const isopen = () => {
-    if (!userinput.amount.trim() && !userinput.payment.trim()) {
-      toast.error("please fill in details");
-    }else if(userinput.payment === "MANUAL PAYMENT"){
-      setOpen(false)
-
-    }else {
+    if (!userinput.amount.trim()) {
+      toast.error("please fill in amount");
+    } else if (!userinput.payment.trim()) {
+      toast.error("please choose a payment option");
+    } else if (userinput.payment === "MANUAL PAYMENT") {
+      setOpen(false);
+      navigate("/");
+    } else {
       setOpen(true);
     }
   };
@@ -39,7 +40,7 @@ const FundWallet = () => {
         width={700}
       >
         <div className="payme">
-          <h2>Paystack</h2>
+          <h2>{userinput.payment}</h2>
         </div>
         <div className="final">
           <div className="price">
@@ -64,6 +65,7 @@ const FundWallet = () => {
             <input
               type="number"
               value={userinput.amount}
+              min={0}
               onChange={(e) =>
                 setUserInput({ ...userinput, amount: e.target.value })
               }
@@ -78,8 +80,10 @@ const FundWallet = () => {
                 setUserInput({ ...userinput, payment: e.target.value })
               }
             >
-              <option>Paystack NGN</option>
-              <option>MANUAL PAYMENT</option>
+              <option value="">Select Payment Method</option>
+              <option value="Paystack NGN">Paystack NGN</option>
+              <option value="MANUAL PAYMENT">MANUAL PAYMENT</option>
+              <option value="FlutterWave">FlutterWave</option>
             </select>
           </label>
           <button onClick={isopen}>Continue</button>

@@ -1,0 +1,137 @@
+.ruleBody{
+    width: 100%;
+    height: max-content;
+    background: rgb(248,249,250);
+    padding: 50px 7%;
+}
+
+.whitePaper{
+    width: 50%;
+    height: 820px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.whitFront{
+    width: 45%;
+    height: 720px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    position: absolute;
+    top: 17%;
+    left: 6%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ruleshead{
+    width: 100%;
+    height: max-content;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.rulesText1{
+    width: 92%;
+    height: max-content;
+    padding: 10px 0;
+    color: rgb(63,67,73);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+    & span{
+        font-size: 7px;
+    }
+}
+
+.rulesText{
+    width: 92%;
+    height: max-content;
+    border-top: 1px solid gray;
+    padding: 20px 0;
+    color: rgb(63,67,73);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    & span{
+        font-size: 7px;
+    }
+}
+
+@media screen and (width <= 575px) {
+    .ruleBody{
+        width: 100%;
+        height: max-content;
+        background: rgb(248,249,250);
+        padding: 50px 7%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .whitePaper{
+        width: 90%;
+        height: 1100px;
+        background-color: white;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        position: relative;
+    
+    }
+    
+    .whitFront{
+        width: 110%;
+        height: max-content;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid lightgray;
+        position: absolute;
+        top: 5%;
+        left: -15px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .ruleshead{
+        width: 100%;
+        height: max-content;
+        padding: 10px;
+        font-weight: 600;
+    }
+    
+    .rulesText1{
+        width: 92%;
+        height: max-content;
+        padding: 10px 0;
+        color: rgb(63,67,73);
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    
+        & span{
+            font-size: 7px;
+        }
+    }
+    
+    .rulesText{
+        width: 92%;
+        height: max-content;
+        border-top: 1px solid gray;
+        padding: 20px 0;
+        color: rgb(63,67,73);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    
+        & span{
+            font-size: 7px;
+        }
+    }
+    
+}

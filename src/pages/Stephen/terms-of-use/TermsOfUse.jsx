@@ -17,7 +17,7 @@ const TermsOfUse = () => {
             <p>
               Make sure to use 
               <span
-                style={{ color: "blue", fontSize: "16px", cursor: "pointer" }}
+                style={{ color: "blue", fontSize: "16px", cursor: "pointer", marginLeft: "5px", marginRight: "5px" }}
               >
                  m.facebook.com
               </span>

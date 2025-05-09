@@ -21,7 +21,7 @@
     border: 1px solid lightgray;
     position: absolute;
     top: 17%;
-    left: 6%;
+    left: 18%;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -94,7 +94,7 @@
 @media screen and (width <= 575px) {
     .ruleBody{
         width: 100%;
-        height: max-content;
+        height: 1400px;
         background: rgb(248,249,250);
         padding: 50px 7%;
         display: flex;

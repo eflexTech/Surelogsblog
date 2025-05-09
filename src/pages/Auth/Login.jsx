@@ -62,7 +62,7 @@ const Login = () => {
       </Form.Item>
 
       <Form.Item>
-        <Button block color='cyan' variant="solid" htmlType="submit">
+        <Button block color='cyan' variant="solid" htmlType="submit" onClick={() => nav('/dashboard')}>
           Log in
         </Button>
         or <a onClick={()=>nav('/signup')}>Register now!</a>
